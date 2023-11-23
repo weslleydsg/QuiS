@@ -1,0 +1,4 @@
+metro.config.js
+babel.config.js
+node_modules
+coverage

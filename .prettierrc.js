@@ -1,7 +1,14 @@
 module.exports = {
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   bracketSameLine: true,
-  bracketSpacing: false,
   singleQuote: true,
   trailingComma: 'all',
+  printWidth: 80,
+  'max-len': 120,
+  overrides: [
+    {
+      files: '.editorconfig',
+      options: { parser: 'yaml' },
+    },
+  ],
 };

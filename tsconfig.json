@@ -1,3 +1,24 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "allowJs": false,
+    "jsx": "react-native",
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
 }
