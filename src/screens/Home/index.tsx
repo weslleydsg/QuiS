@@ -1,10 +1,12 @@
 import React from 'react';
 import { Button, Headline, useTheme } from 'react-native-paper';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import environment from '~/config/environment';
 import styles from './styles';
 
 function HomeScreen(): JSX.Element {
   const theme = useTheme<GlobalTheme.Theme>();
+  console.log('environment.TEST :>> ', environment.TEST);
   return (
     <SafeAreaView
       style={[styles.screen, { margin: theme.spacings.large }]}
