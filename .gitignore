@@ -74,3 +74,9 @@ yarn-error.log
 
 # Jenv
 .java-version
+
+# NVM
+.nvmrc
+
+# Firebase
+android/app/google-services.json
