@@ -2,8 +2,24 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   screen: {
-    flex: 1,
+    flexGrow: 1,
     justifyContent: 'center',
-    alignItems: 'center',
+  },
+  scrollView: {
+    flexGrow: 1,
+  },
+  headline: {
+    flex: 2,
+    alignSelf: 'center',
+  },
+  searchRoomContainer: {
+    flex: 1,
+  },
+  searchRoomButton: {
+    alignSelf: 'center',
+  },
+  createRoomContainer: {
+    flex: 1,
+    justifyContent: 'flex-end',
   },
 });

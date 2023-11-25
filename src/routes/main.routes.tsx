@@ -26,7 +26,11 @@ function StackScreen(): JSX.Element {
   return (
     <NavigationContainer theme={combinedTheme}>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen
+          name="Home"
+          component={Home}
+          options={{ title: 'QuiS' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

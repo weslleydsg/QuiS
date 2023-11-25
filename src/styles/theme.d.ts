@@ -6,6 +6,9 @@ export declare global {
 
     interface ThemeSpacings {
       large: number;
+      small: number;
+      big: number;
+      huge: number;
     }
 
     interface Theme extends MD3Theme {
